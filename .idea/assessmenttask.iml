@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="JAVA_MODULE" version="4">
+  <component name="NewModuleRootManager" inherit-compiler-output="true">
+    <exclude-output />
+    <content url="file://$MODULE_DIR$">
+      <excludeFolder url="file://$MODULE_DIR$/assessment_task/.dart_tool" />
+      <excludeFolder url="file://$MODULE_DIR$/assessment_task/.pub" />
+      <excludeFolder url="file://$MODULE_DIR$/assessment_task/build" />
+      <excludeFolder url="file://$MODULE_DIR$/assessment_task/ios/.symlinks/plugins/flutter_local_notifications/.dart_tool" />
+      <excludeFolder url="file://$MODULE_DIR$/assessment_task/ios/.symlinks/plugins/flutter_local_notifications/.pub" />
+      <excludeFolder url="file://$MODULE_DIR$/assessment_task/ios/.symlinks/plugins/flutter_local_notifications/build" />
+      <excludeFolder url="file://$MODULE_DIR$/assessment_task/ios/.symlinks/plugins/flutter_local_notifications/example/.dart_tool" />
+      <excludeFolder url="file://$MODULE_DIR$/assessment_task/ios/.symlinks/plugins/flutter_local_notifications/example/.pub" />
+      <excludeFolder url="file://$MODULE_DIR$/assessment_task/ios/.symlinks/plugins/flutter_local_notifications/example/build" />
+      <excludeFolder url="file://$MODULE_DIR$/assessment_task/ios/.symlinks/plugins/flutter_native_timezone/.dart_tool" />
+      <excludeFolder url="file://$MODULE_DIR$/assessment_task/ios/.symlinks/plugins/flutter_native_timezone/.pub" />
+      <excludeFolder url="file://$MODULE_DIR$/assessment_task/ios/.symlinks/plugins/flutter_native_timezone/build" />
+      <excludeFolder url="file://$MODULE_DIR$/assessment_task/ios/.symlinks/plugins/flutter_native_timezone/example/.dart_tool" />
+      <excludeFolder url="file://$MODULE_DIR$/assessment_task/ios/.symlinks/plugins/flutter_native_timezone/example/.pub" />
+      <excludeFolder url="file://$MODULE_DIR$/assessment_task/ios/.symlinks/plugins/flutter_native_timezone/example/build" />
+      <excludeFolder url="file://$MODULE_DIR$/assessment_task/ios/.symlinks/plugins/path_provider_foundation/.dart_tool" />
+      <excludeFolder url="file://$MODULE_DIR$/assessment_task/ios/.symlinks/plugins/path_provider_foundation/.pub" />
+      <excludeFolder url="file://$MODULE_DIR$/assessment_task/ios/.symlinks/plugins/path_provider_foundation/build" />
+      <excludeFolder url="file://$MODULE_DIR$/assessment_task/ios/.symlinks/plugins/path_provider_foundation/example/.dart_tool" />
+      <excludeFolder url="file://$MODULE_DIR$/assessment_task/ios/.symlinks/plugins/path_provider_foundation/example/.pub" />
+      <excludeFolder url="file://$MODULE_DIR$/assessment_task/ios/.symlinks/plugins/path_provider_foundation/example/build" />
+      <excludeFolder url="file://$MODULE_DIR$/assessment_task/linux/flutter/ephemeral/.plugin_symlinks/flutter_local_notifications_linux/.dart_tool" />
+      <excludeFolder url="file://$MODULE_DIR$/assessment_task/linux/flutter/ephemeral/.plugin_symlinks/flutter_local_notifications_linux/.pub" />
+      <excludeFolder url="file://$MODULE_DIR$/assessment_task/linux/flutter/ephemeral/.plugin_symlinks/flutter_local_notifications_linux/build" />
+      <excludeFolder url="file://$MODULE_DIR$/assessment_task/linux/flutter/ephemeral/.plugin_symlinks/path_provider_linux/.dart_tool" />
+      <excludeFolder url="file://$MODULE_DIR$/assessment_task/linux/flutter/ephemeral/.plugin_symlinks/path_provider_linux/.pub" />
+      <excludeFolder url="file://$MODULE_DIR$/assessment_task/linux/flutter/ephemeral/.plugin_symlinks/path_provider_linux/build" />
+      <excludeFolder url="file://$MODULE_DIR$/assessment_task/linux/flutter/ephemeral/.plugin_symlinks/path_provider_linux/example/.dart_tool" />
+      <excludeFolder url="file://$MODULE_DIR$/assessment_task/linux/flutter/ephemeral/.plugin_symlinks/path_provider_linux/example/.pub" />
+      <excludeFolder url="file://$MODULE_DIR$/assessment_task/linux/flutter/ephemeral/.plugin_symlinks/path_provider_linux/example/build" />
+      <excludeFolder url="file://$MODULE_DIR$/assessment_task/windows/flutter/ephemeral/.plugin_symlinks/flutter_local_notifications_windows/.dart_tool" />
+      <excludeFolder url="file://$MODULE_DIR$/assessment_task/windows/flutter/ephemeral/.plugin_symlinks/flutter_local_notifications_windows/.pub" />
+      <excludeFolder url="file://$MODULE_DIR$/assessment_task/windows/flutter/ephemeral/.plugin_symlinks/flutter_local_notifications_windows/build" />
+      <excludeFolder url="file://$MODULE_DIR$/assessment_task/windows/flutter/ephemeral/.plugin_symlinks/path_provider_windows/.dart_tool" />
+      <excludeFolder url="file://$MODULE_DIR$/assessment_task/windows/flutter/ephemeral/.plugin_symlinks/path_provider_windows/.pub" />
+      <excludeFolder url="file://$MODULE_DIR$/assessment_task/windows/flutter/ephemeral/.plugin_symlinks/path_provider_windows/build" />
+      <excludeFolder url="file://$MODULE_DIR$/assessment_task/windows/flutter/ephemeral/.plugin_symlinks/path_provider_windows/example/.dart_tool" />
+      <excludeFolder url="file://$MODULE_DIR$/assessment_task/windows/flutter/ephemeral/.plugin_symlinks/path_provider_windows/example/.pub" />
+      <excludeFolder url="file://$MODULE_DIR$/assessment_task/windows/flutter/ephemeral/.plugin_symlinks/path_provider_windows/example/build" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+  </component>
+</module>

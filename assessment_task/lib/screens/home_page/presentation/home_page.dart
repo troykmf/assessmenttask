@@ -1,3 +1,5 @@
+import 'dart:io';
+
 import 'package:assessment_task/screens/home_page/widgets/contacts_card_widget.dart';
 import 'package:assessment_task/view_models/contacts_vm.dart';
 import 'package:flutter/material.dart';
@@ -81,25 +83,62 @@ class HomeScreen extends ConsumerWidget {
   );
 
   // Schedules a reminder notification for the contact
+  //   Future<void> _scheduleReminder(
+  //     BuildContext context,
+  //     NotificationService service,
+  //     Contact contact,
+  //   ) async {
+  //     try {
+  //       await service.scheduleReminder(contact);
+  //       ScaffoldMessenger.of(context).showSnackBar(
+  //         SnackBar(
+  //           content: const Text('Reminder set! Notification in 1 minute ⏰'),
+  //           backgroundColor: Colors.green[800],
+  //           duration: const Duration(seconds: 2),
+  //         ),
+  //       );
+  //     } catch (e) {
+  //       ScaffoldMessenger.of(context).showSnackBar(
+  //         SnackBar(
+  //           content: Text('Error: ${e.toString()}'),
+  //           backgroundColor: Colors.red[800],
+  //         ),
+  //       );
+  //     }
+  //   }
   Future<void> _scheduleReminder(
     BuildContext context,
     NotificationService service,
     Contact contact,
   ) async {
     try {
+      // Check if Android and request permissions
+      if (Platform.isAndroid) {
+        final status = await service.requestPermissions();
+        if (!status) {
+          ScaffoldMessenger.of(context).showSnackBar(
+            const SnackBar(
+              content: Text('Notification permission denied'),
+              backgroundColor: Colors.red,
+            ),
+          );
+          return;
+        }
+      }
+
       await service.scheduleReminder(contact);
+
       ScaffoldMessenger.of(context).showSnackBar(
-        SnackBar(
-          content: const Text('Reminder set! Notification in 1 minute ⏰'),
-          backgroundColor: Colors.green[800],
-          duration: const Duration(seconds: 2),
+        const SnackBar(
+          content: Text('Reminder set! Check notifications in 1 minute'),
+          backgroundColor: Colors.green,
         ),
       );
     } catch (e) {
       ScaffoldMessenger.of(context).showSnackBar(
         SnackBar(
-          content: Text('Error: ${e.toString()}'),
-          backgroundColor: Colors.red[800],
+          content: Text('Failed to set reminder: ${e.toString()}'),
+          backgroundColor: Colors.red,
         ),
       );
     }
